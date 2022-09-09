@@ -48,7 +48,7 @@
 # print("Исходный список: ")
 # print(sample_list)
 # import random
-# # random.shuffle(sample_list)
+# random.shuffle(sample_list)
 # print("Перемешанный список: ")
 # print(sample_list)    #на семинаре, вроде бы, сказали, что этого будет достаточно
 
