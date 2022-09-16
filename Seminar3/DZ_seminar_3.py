@@ -53,3 +53,23 @@
 # print(f"Двоичный вид числа {fake_number}\n", "Равняется:", s)
 
 ###################################################################################
+
+# Задайте число. Составьте список чисел Фибоначчи, в том числе для отрицательных индексов.
+
+# number = int(input('Введите число: '))
+
+# def get_fibonacci(number):
+#     fibon_numbers = []
+#     a, b = 1, 1
+#     for i in range(number-1):
+#         fibon_numbers.append(a)
+#         a, b = b, a + b
+#     a, b = 0, 1
+#     for i in range (number):
+#         fibon_numbers.insert(0, a)
+#         a, b = b, a - b
+#     return fibon_numbers
+
+# fibon_numbers = get_fibonacci(number)
+# print(get_fibonacci(number))
+# print(fibon_numbers.index(0))
