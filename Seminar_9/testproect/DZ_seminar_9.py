@@ -15,3 +15,35 @@
 # Иван решил создать самый большой словарь в мире. Для этого он придумал функцию biggest_dict(**kwargs), 
 # которая принимает неограниченное количество параметров «ключ: значение» и обновляет созданный им словарь my_dict, 
 # состоящий всего из одного элемента «first_one» со значением «we can do it». Воссоздайте эту функцию.
+
+# some_dict = {'first_one': 'we can do it'}
+
+# def biggest_dict(**kwargs):
+#     some_dict.update(**kwargs)
+
+# biggest_dict(pet="dog", name="Rex", age=14)
+# print(some_dict)
+
+
+#################################
+
+
+# 4. Написать функцию thesaurus_adv(), принимающую в качестве аргументов строки 
+# в формате «Имя Фамилия» и возвращающую словарь, в котором ключи — первые буквы фамилий, а значения — словари, 
+# реализованные по схеме предыдущего задания и содержащие записи, в которых фамилия начинается с соответствующей буквы. 
+# 
+
+# def thesaurus_adv(*args):
+#     my_dict = {}
+#     for i in args:
+#         name, second_name = i.split()
+#         if not my_dict.get(second_name[0]):
+#             my_dict[second_name[0]] = { name[0] : [i] }
+#         elif not my_dict[second_name[0]].get(name[0]):
+#             (my_dict[second_name[0]])[name[0]] = [i]
+#         else:
+#             (my_dict[second_name[0]])[name[0]].append(i)
+
+#     print(my_dict)
+
+# thesaurus_adv("Иван Сергеев", "Инна Серова", "Петр Алексеев", "Илья Иванов", "Анна Савельева")
