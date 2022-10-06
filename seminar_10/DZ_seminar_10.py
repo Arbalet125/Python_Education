@@ -23,3 +23,26 @@
 #     set_numbers.add(i)
 
 ################################################
+
+# Задача №3 
+# Дан текст: в первой строке записано число строк, далее идут сами строки. Определите, сколько различных слов
+# содержится в этом тексте.
+# Словом считается последовательность непробельных символов идущих подряд, слова разделены одним 
+# или большим числом пробелов или символами конца строки.
+
+
+# sample_str = '''4                                                     # это число тоже будет считаться строкой и словом
+# She sells sea shells on the sea shore;
+# The shells that she sells are sea shells I'm sure.
+# So if she sells sea shells on the sea shore,
+# I'm sure that the shells are sea shore shells.'''
+
+# print(sample_str)
+
+# set_str = set()
+
+# for i in sample_str:
+#     S = sample_str.split()
+#     for elem in S:
+#         set_str.add(elem)
+# print(len(set_str))
