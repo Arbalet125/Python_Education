@@ -1,5 +1,7 @@
 # Напишите программу, удаляющую из текста все слова содержащие "абв".
 
+# То, как я понял условие (до того, как посмотрел семинар):
+
 # my_text = 'Текабвстовый абвбред Тест генерируетсяабв для рандомабвно программы потомуабвчто прошел этоабв успешно бреабвд'
 
 # def delete_some_words(my_text):
@@ -8,6 +10,24 @@
 
 # my_text = delete_some_words(my_text)
 # print(my_text)
+
+# Видимо, то, как должно быть:
+
+# from random import sample
+
+# def some_rand_word(nubmer_of_words, alp: str = 'абв'):
+#     return " ".join("".join(sample(alp, 3)) for _ in range(nubmer_of_words))
+
+# def delete_some_words(words: str):
+#     return words.replace("абв ", "")
+
+# nubmer_of_words = int(input('Введите количество слов, состоящих из букв "а", "б", "в": '))
+# result = some_rand_word(nubmer_of_words)
+# print(result)
+# print(delete_some_words(result))
+
+# И я все еще не уверен, что понял задачу правильно.
+
 
 ##################################################################
 
