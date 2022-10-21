@@ -26,3 +26,4 @@ def mult(left_value, right_value):
 
 def div(left_value, right_value):
     return left_value / right_value
+    

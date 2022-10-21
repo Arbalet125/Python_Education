@@ -25,3 +25,4 @@ def data_formatting(data):
             '/')]), int(g[g.index('/')+1:len(g)]))
 
     return (left_value, oper, right_value)
+    
