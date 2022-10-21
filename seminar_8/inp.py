@@ -9,3 +9,4 @@ def inpp():
 def exp():
     second_name = input('Введите фамилию человека: ')
     return second_name
+
