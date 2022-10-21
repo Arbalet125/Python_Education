@@ -10,3 +10,4 @@ def result_logger(data, result):
     with open('log.csv', 'a', encoding='UTF-8') as file:
         file.write('{}; операция : {} результат :{}\n'.format(
             time, data_str, result))
+

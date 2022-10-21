@@ -62,3 +62,4 @@ def input_data():
         print('Выберите операцию:')
         oper = get_value()
     return (data_type, left_value, oper, right_value)
+

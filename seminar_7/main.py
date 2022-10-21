@@ -11,3 +11,4 @@ def button_click():
     write_log(j, calc_result)
 
 button_click()
+
